@@ -31,5 +31,7 @@ with TimeThis() as timeit:
 			else:
 				fib.append(fib[i-1]+fib[i-2])
 		return fib[n]
+	
+	
 if __name__== "__main__":
 	fib(100)
